@@ -1,0 +1,9 @@
+footer{
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 20% 30% 50%;
+    background: rgb(236,234,242);
+    background: linear-gradient(0deg, rgba(236,234,242,1) 0%, rgba(100,119,122,1) 100%);
+    grid-gap:10px;
+    height: auto;
+}
