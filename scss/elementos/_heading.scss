@@ -1,0 +1,20 @@
+h1,h2,h3,h4,h5,h6{
+    margin:10px;
+    padding:10px;
+    border:10px;
+    font-weight:bold;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color:blue;
+    text-decoration: none;
+    list-style: none;
+    font-family: rubik;
+    grid-gap:5px;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 2px;
+    display: block; 
+}

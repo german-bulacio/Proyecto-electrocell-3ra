@@ -1,9 +1,8 @@
-
-
 img{
     width: 100%;
     object-fit: contain;
 }
+
 .logo{
     align-content: center;  
     justify-content: center;
@@ -11,6 +10,10 @@ img{
     width:280px;
     height:180px;
     }
+}
+.nav_img{
+    width: 40px;
+    height: 40px;
 }
 .fotolc{
     align-self: center;  
@@ -30,3 +33,10 @@ img{
     width: 75px;
     height: 75px;
 }
+/*nosotros*/
+.img-uno{background-image: url("/multi/fondos/fondoMn.png");}
+
+.img-dos{background-image:url("/multi/fondos/fondoMn.png");}
+
+.img-tres{background-image:url("/multi/fondos/fondoMn.png");}
+/*productos*/

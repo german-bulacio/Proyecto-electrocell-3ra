@@ -1,0 +1,148 @@
+.container {
+  width: 95%;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  overflow: hidden;
+}
+
+div {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 5px;
+  padding: 5px;
+  border: 5px;
+  font-weight: bold;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  list-style: none;
+  font-family: rubik;
+  grid-gap: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  padding: 5px;
+  display: block;
+}
+
+img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+/*
+.logo{
+    align-content: center;  
+    justify-content: center;
+    .imgChica{
+    width:280px;
+    height:180px;
+    }
+}
+.fotolc{
+    align-self: center;  
+    justify-self: center;
+}
+.imglc{
+    width:400px;
+    height:180px;
+}
+
+.ftp{
+    width: 230px;
+    height: 200px;
+    padding: 10px;
+}
+.redes_ftp{
+    width: 75px;
+    height: 75px;
+}*/
+@media screen and (max-width: 576px) {
+  /*mobile lay*/
+  header.encabezadoSm {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 30% 50%;
+        grid-template-columns: 20% 30% 50%;
+    width: 576px;
+    height: auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #eceaf2;
+    background: -webkit-gradient(linear, left bottom, left top, from(#eceaf2), to(#64777a));
+    background: linear-gradient(0deg, #eceaf2 0%, #64777a 100%);
+  }
+  div.logoSm {
+    width: 110px;
+    height: auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  div.logoSm .imgChicaSm {
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+  }
+  div.tituloSm {
+    width: 172px;
+    height: auto;
+  }
+  div.tituloSm h1 {
+    font-size: 25px;
+  }
+  div.navegadorSm {
+    width: 288px;
+    height: auto;
+  }
+  div.navegadorSm a {
+    font-size: 10px;
+    padding: 3px;
+  }
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row wrap;
+          flex-direction: row wrap;
+  list-style: none;
+  justify-self: flex-start;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.menu li {
+  display: inline-block;
+  text-align: left;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #0051ff;
+  padding: 1px;
+  display: block;
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */

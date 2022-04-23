@@ -1,10 +1,23 @@
-.tablaDestacado{
+
+#tablaef {
     font-family: Rubik, sans-serif;
-	font-size: 15px;
-    text-align: center;
-    color: rgb(27, 5, 149);
-    padding: 20px;
-    margin:20px;    
-    width: auto;
-    object-fit: contain;
-}
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tablaef td, #tablaef th {
+    border: 1px solid rgb(7, 2, 75);
+    padding: 8px;
+  }
+  
+  #tablaef tr:nth-child(even){background-color: #a0e1f4;}
+  
+  #tablaef tr:hover {background-color: rgb(221, 207, 207);}
+  
+  #tablaef th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0b4bdf;
+    color: white;
+  }

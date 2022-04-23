@@ -1,0 +1,57 @@
+/* index estructura*/
+.grid{
+    display: grid;
+    overflow: hidden;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+  
+   .bloque1{
+      grid-template-columns: 100%;   
+    }
+    .serv1{
+      grid-template-columns: 50% 50%;
+    }
+    .bloquesrv2{
+      grid-template-columns: 100%;  
+  }
+  .serv2{
+      grid-template-columns: 100%;
+      justify-self: center;
+      align-self: center;
+  }
+  .prodNvos{
+    grid-template-columns: 30% 30% 30%;
+    align-content: center;  
+    justify-content: center;
+    text-align: center;    
+  }
+  .piePg{
+    grid-template-columns: 100%;
+    
+  }
+  .pieOrden{
+    grid-template-columns: 30% 30% 30%;
+    align-content: center;  
+    justify-content: center;
+    text-align: center;
+  }
+  .cttDts{
+    justify-content: start;
+    text-align: start;
+  }
+  /*Nosotros*/
+  .titulo{
+    grid-template-columns: 100%;
+  }
+  .ordenNs{
+    grid-template-columns: 100%;
+  }
+  /*productos*/
+  .prod {
+    display: grid;
+    align-content: center;  
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+}
