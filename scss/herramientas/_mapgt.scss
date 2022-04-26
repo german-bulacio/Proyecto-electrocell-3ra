@@ -1,0 +1,12 @@
+$tarjetas:(
+    amex:$color-v,
+    visa:$primary-color,
+    pay:$color-a,
+);
+
+@each $tarjeta in $color,$tarjetas {
+    .iconoTj{tarjeta}
+    {
+        background-color: $color;
+    }
+}

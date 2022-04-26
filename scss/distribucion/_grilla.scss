@@ -2,19 +2,25 @@
 .grid{
     display: grid;
     overflow: hidden;
-    align-content: space-evenly;
-    justify-content: space-evenly;
-    justify-items: center;
   }
   
    .bloque1{
-      grid-template-columns: 100%;   
+      grid-template-columns: 100%;
+      align-content: space-evenly;
+      justify-content: space-evenly;
+      justify-items: center;   
     }
     .serv1{
       grid-template-columns: 50% 50%;
+      align-content: space-evenly;
+      justify-content: space-evenly;
+      justify-items: center;
     }
     .bloquesrv2{
-      grid-template-columns: 100%;  
+      grid-template-columns: 100%;
+      align-content: space-evenly;
+      justify-content: space-evenly;
+      justify-items: center;  
   }
   .serv2{
       grid-template-columns: 100%;
@@ -23,18 +29,18 @@
   }
   .prodNvos{
     grid-template-columns: 30% 30% 30%;
-    align-content: center;  
-    justify-content: center;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    justify-items: center;
     text-align: center;    
   }
   .piePg{
     grid-template-columns: 100%;
-    
+    align-content: space-evenly;
+    justify-content: space-evenly;
   }
   .pieOrden{
     grid-template-columns: 30% 30% 30%;
-    align-content: center;  
-    justify-content: center;
     text-align: center;
   }
   .cttDts{
@@ -51,7 +57,14 @@
   /*productos*/
   .prod {
     display: grid;
-    align-content: center;  
-    justify-content: center;
+    align-content:space-evenly;
+    justify-content:space-evenly;
+    justify-items: center;
     grid-template-columns: 50% 50%;
+    padding: 30px 0px;
+}
+.tablapd{
+  align-content:space-evenly;
+  justify-content:space-evenly;
+  justify-items: center;
 }

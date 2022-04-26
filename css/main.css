@@ -314,19 +314,25 @@ template {
 /* index estructura*/
 .grid {
   display: grid;
-  overflow: hidden;
+  overflow: hidden; }
+
+.bloque1 {
+  grid-template-columns: 100%;
   align-content: space-evenly;
   justify-content: space-evenly;
   justify-items: center; }
 
-.bloque1 {
-  grid-template-columns: 100%; }
-
 .serv1 {
-  grid-template-columns: 50% 50%; }
+  grid-template-columns: 50% 50%;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-items: center; }
 
 .bloquesrv2 {
-  grid-template-columns: 100%; }
+  grid-template-columns: 100%;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-items: center; }
 
 .serv2 {
   grid-template-columns: 100%;
@@ -335,17 +341,18 @@ template {
 
 .prodNvos {
   grid-template-columns: 30% 30% 30%;
-  align-content: center;
-  justify-content: center;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-items: center;
   text-align: center; }
 
 .piePg {
-  grid-template-columns: 100%; }
+  grid-template-columns: 100%;
+  align-content: space-evenly;
+  justify-content: space-evenly; }
 
 .pieOrden {
   grid-template-columns: 30% 30% 30%;
-  align-content: center;
-  justify-content: center;
   text-align: center; }
 
 .cttDts {
@@ -362,9 +369,16 @@ template {
 /*productos*/
 .prod {
   display: grid;
-  align-content: center;
-  justify-content: center;
-  grid-template-columns: 50% 50%; }
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-items: center;
+  grid-template-columns: 50% 50%;
+  padding: 30px 0px; }
+
+.tablapd {
+  align-content: space-evenly;
+  justify-content: space-evenly;
+  justify-items: center; }
 
 .contenedor {
   width: 95%;
@@ -395,11 +409,11 @@ img {
   height: 180px; }
 
 .ftp {
-  width: 230px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   padding: 10px; }
 
-.redes_ftp {
+.redes_ftp, .fa-brands {
   width: 75px;
   height: 75px; }
 
@@ -497,9 +511,9 @@ a {
   display: block; }
 
 div {
-  margin: 0px;
-  padding: 0px;
-  border: 0px; }
+  margin: 5px;
+  padding: 5px;
+  border: 5px; }
 
 main {
   background: #f3f3f4;
@@ -517,6 +531,13 @@ p {
   margin: 10px;
   padding: 10px; }
 
+/*index parrafo*/
+.textoSM1 {
+  color: #6a037f;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid blue; }
+
 /*nosotros*/
 .prr1 {
   font-size: 12px;
@@ -532,6 +553,10 @@ p {
   width: 80%; }
 
 .texto {
+  color: #6a037f;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid blue;
   padding: 5%;
   width: 90%; }
 
@@ -613,7 +638,7 @@ footer {
     grid-template-columns: 100%; }
   .clas1Ms, .listaCsMs {
     grid-template-columns: 100%; }
-  .rftpMs {
+  .rftpMs, .fa-brands {
     width: 40px;
     height: 40px; } }
 
@@ -643,6 +668,10 @@ footer {
   .ftpNMs {
     width: 200px;
     height: 130px; }
-  .rftpSm {
+  .rftpSm, .fa-brands {
     width: 25px;
     height: 25px; } }
+
+.iconoTj {
+  width: 50px;
+  height: 50px; }

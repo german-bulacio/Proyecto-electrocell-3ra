@@ -9,6 +9,10 @@ p{
     margin:10px;
     padding:10px;
 }
+/*index parrafo*/
+.textoSM1{
+	@include parrafos-importantes;
+}
 /*nosotros*/
 .prr1{
 	font-size: 12px;
@@ -24,6 +28,7 @@ p{
 	width: 80%
 }
 .texto{
+	@include parrafos-importantes;
 	padding:5%;
 	width: 90%;
 }

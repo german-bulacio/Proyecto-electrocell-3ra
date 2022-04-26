@@ -1,6 +1,7 @@
 @import "genericas/boxz";
 @import "genericas/normalize";
 @import "distribucion/grilla";
+@import "herramientas/mixins";
 @import "settings/colors";
 @import "settings/tipografia";
 @import "objetos/contenedores";
@@ -15,3 +16,5 @@
 @import "atomos/tabla";
 @import "organismos/footer";
 @import "herramientas/medias";
+@import "atomos/iconos";
+@import "herramientas/mapgt";
