@@ -1,20 +1,4 @@
-.menu{  
-    display: flex;
-    flex-direction: row wrap;  
-    list-style: none;
-    justify-self: center;
-    align-self:center;
-       li{
-           display: inline-block;
-           text-align: center;
-           a{
-               text-decoration: none;
-               color:rgb(0, 81, 255);
-               padding:5px;
-               display: block;
-          }
-       }
-   }
+
 /*nosotros parallax*/
 .sct1{
 	left: 10%;

@@ -1,51 +1,10 @@
 /* index estructura*/
-.grid{
+.grid1{
     display: grid;
     overflow: hidden;
-  }
-  
-   .bloque1{
-      grid-template-columns: 100%;
-      align-content: space-evenly;
-      justify-content: space-evenly;
-      justify-items: center;   
-    }
-    .serv1{
-      grid-template-columns: 50% 50%;
-      align-content: space-evenly;
-      justify-content: space-evenly;
-      justify-items: center;
-    }
-    .bloquesrv2{
-      grid-template-columns: 100%;
-      align-content: space-evenly;
-      justify-content: space-evenly;
-      justify-items: center;  
-  }
-  .serv2{
-      grid-template-columns: 100%;
-      justify-self: center;
-      align-self: center;
-  }
-  .prodNvos{
-    grid-template-columns: 30% 30% 30%;
-    align-content: space-evenly;
-    justify-content: space-evenly;
+    justify-content: center;
     justify-items: center;
-    text-align: center;    
-  }
-  .piePg{
-    grid-template-columns: 100%;
-    align-content: space-evenly;
-    justify-content: space-evenly;
-  }
-  .pieOrden{
     grid-template-columns: 30% 30% 30%;
-    text-align: center;
-  }
-  .cttDts{
-    justify-content: start;
-    text-align: start;
   }
   /*Nosotros*/
   .titulo{

@@ -1,5 +1,29 @@
 .contenedor {
     width: 95%;
     margin: 0 auto;
-    display: grid;
+    display:flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.contA{
+    width: 95%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-items: end;
+}
+.contB{
+    width: 95%;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-items: center;
+}
+.contC{
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    display:grid;
+    grid-template-columns: 100%;
+    justify-items: center;
 }

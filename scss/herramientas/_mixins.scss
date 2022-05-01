@@ -1,6 +1,6 @@
 @mixin parrafos-importantes{
-    color: rgb(106, 3, 127);
+    color:$secundario;
     font-size: 20px;
     font-weight: bold;
-    border: 5px solid blue;
+    font-family: "Jost";
   }

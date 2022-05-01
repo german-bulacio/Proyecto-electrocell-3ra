@@ -1,14 +1,14 @@
-$_azulelectrico:blue;
-$_blancofull:#fefefe;
+$_azulclaro:rgb(64, 40, 250);
+$_blancofull:#faf6f6;
 $_negrofull:#080808;
-$_violetafull:#400255;
-$_verdeclaro:rgb(106, 237, 141);
-$_azulclaro:rgb(81, 151, 250);
+$_violetafull:#8508ae;
+$_verdeclaro:rgb(5, 90, 25);
+$_rojo-opaco:rgb(249, 52, 45);
 
 
 
 
 
-$color-v:$_verdeclaro;
-$primary-color: $_azulelectrico;
-$color-a:$_azulclaro;
+$primario:$_azulclaro;
+$secundario:$_negrofull;
+$success:$_verdeclaro;

@@ -1,108 +1,34 @@
-@media screen and (max-width: 778px){
-    .encabezadoMs{
-        grid-template-columns: 100%; 
-    }
-    .logoMs{
-        align-content: center;  
-        justify-content: center;
-        .imgChicaMs{
-        width:200px;
-        height:150px;
-        }
-    }
-    .tituloMs{
-        font-size: 20px; 
-    }
-    .principalMs{
+@media screen and (max-width: 769px) {
+    .contAms,.contBms{
+        width: 95%;
+        margin: 0 auto;
+        display:grid;
         grid-template-columns: 100%;
+        justify-items: center;
     }
-    .serv1Ms{
-        grid-template-columns: 100%;
-    }
-    .imlcSM{
-        width: 200px;
-        height: 180px;
-    }
-    .textoSM1{
-        font-size: 15px; 
-    }
-    .serv2Ms{
-        grid-template-columns: 100%;
-    }
-    .tablaMs{ 
-        font-family: 'rubik', sans-serif;
-        font-size: 10px;
-        text-align: center;
-        color: rgb(44, 34, 92);
-        padding: 10px;
-        margin:10px;    
-    }
-    .subtituloMs{
-        font-family: 'rubik', sans-serif;
-        font-size: 15px;
-        font-weight: bold;
-        margin: 10px;
-        grid-gap:10px;
 
+    .cardBox {
+      margin-left: 2.8%;
+      margin-top: 3%;
+      width: 46%;
     }
-    .ftpMs{
-        width: 150px;
-        height: 120px;
+    .card {
+      height: 285px;
     }
-    .letraSm,.letSm{
-        font-family: 'rubik', sans-serif;
-        font-size: 12px;
-        font-weight: bold;
-        margin: 10px;
+    .cardBox:last-child {
+      margin-bottom: 3%;
     }
-    .ordenNsSm{
-        grid-template-columns: 100%;
-    }
-    .clas1Ms,.listaCsMs{
-        grid-template-columns: 100%;
-    }
-    .rftpMs{
-        width: 40px;
-        height: 40px;
-    }
- }
-@media screen and (max-width: 576px){
-    .encabezadoSm{
-        grid-template-columns: 100%; 
-    }
-    
-    .logoSm{
-        align-content: center;  
-        justify-content: center;
-        .imgChicaSm{
-        width:150px;
-        height:100px;
-        }
-    }
-    .tituloSm{
-        font-size: 15px; 
-    }
-    .tablaSm{ 
-        font-family: 'rubik', sans-serif;
-        font-size: 10px;
-        text-align: center;
-        color: rgb(44, 34, 92);
-        padding: 5px;
-        margin:5px;    
-    }
-    .pieOrdenSm{
-        grid-template-columns: 100%;
-    }
-    .ftpSm{
-        width: 90px;
-        height: 80px;
-    }
-    .ftpNMs{
-        width: 200px;
-        height: 130px;
-    } 
-    .rftpSm{
-        width: 25px;
-        height: 25px;
-    }
+  }
+  .ftp {
+    width:20%;
+    height: 20%;
 }
+  @media screen and (max-width: 480px) {
+    .cardBox {
+      width: 94.5%;
+    }
+    .card {
+      height: 260px;
+    }
+  }
+
