@@ -13,17 +13,3 @@
   .ordenNs{
     grid-template-columns: 100%;
   }
-  /*productos*/
-  .prod {
-    display: grid;
-    align-content:space-evenly;
-    justify-content:space-evenly;
-    justify-items: center;
-    grid-template-columns: 50% 50%;
-    padding: 30px 0px;
-}
-.tablapd{
-  align-content:space-evenly;
-  justify-content:space-evenly;
-  justify-items: center;
-}

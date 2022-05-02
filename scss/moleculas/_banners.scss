@@ -1,0 +1,35 @@
+.banner{
+    height: 500px;
+    position: relative;
+    background: rgb(86, 209, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.banner__info{
+    padding:0 2rem;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color:$secundario;
+    margin: auto;
+}
+.banner__title{
+    line-height: 1.5;
+    font-size: 2.5em;
+}
+
+.banner__p{
+    line-height: 2;
+    font-size: 0.9em;
+    opacity: 0.9;
+    margin-top: 1em;
+}

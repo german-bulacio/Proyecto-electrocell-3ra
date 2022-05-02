@@ -326,20 +326,6 @@ template {
 .ordenNs {
   grid-template-columns: 100%; }
 
-/*productos*/
-.prod {
-  display: grid;
-  align-content: space-evenly;
-  justify-content: space-evenly;
-  justify-items: center;
-  grid-template-columns: 50% 50%;
-  padding: 30px 0px; }
-
-.tablapd {
-  align-content: space-evenly;
-  justify-content: space-evenly;
-  justify-items: center; }
-
 .contenedor {
   width: 95%;
   margin: 0 auto;
@@ -452,93 +438,6 @@ section {
 .boxVd {
   width: 30%; }
 
-main {
-  overflow: hidden; }
-
-/*index parrafo*/
-p {
-  font-size: "Raleway";
-  font-size: 1rem !important;
-  font-weight: bold;
-  justify-self: center;
-  align-self: center;
-  text-align: center;
-  border: 5px;
-  margin: 5px;
-  padding: 5px; }
-
-/*nosotros*/
-.prr1 {
-  margin: 0 0 24px 0; }
-
-.texto-interior {
-  font-size: 20px;
-  font-weight: bold;
-  left: 10%;
-  position: absolute;
-  text-align: center;
-  top: 40%;
-  width: 80%; }
-
-.texto {
-  color: #080808;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Jost";
-  padding: 5%;
-  width: 90%; }
-
-#tablaef {
-  font-family: Rubik, sans-serif;
-  border-collapse: collapse;
-  width: 100%; }
-
-#tablaef td, #tablaef th {
-  border: 1px solid #07024b;
-  padding: 8px; }
-
-#tablaef tr:nth-child(even) {
-  background-color: #a0e1f4; }
-
-#tablaef tr:hover {
-  background-color: #ddcfcf; }
-
-#tablaef th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #0b4bdf;
-  color: white; }
-
-footer {
-  background: #56d1ed; }
-
-@media screen and (max-width: 769px) {
-  .contAms, .contBms {
-    width: 95%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 100%;
-    justify-items: center; }
-  .cardBox {
-    margin-left: 2.8%;
-    margin-top: 3%;
-    width: 46%; }
-  .card {
-    height: 285px; }
-  .cardBox:last-child {
-    margin-bottom: 3%; } }
-
-.ftp {
-  width: 20%;
-  height: 20%; }
-
-@media screen and (max-width: 480px) {
-  .cardBox {
-    width: 94.5%; }
-  .card {
-    height: 260px; } }
-
 .banner {
   height: 500px;
   position: relative;
@@ -630,7 +529,7 @@ footer {
 .text-shadow {
   text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04); }
 
-/*productos*/
+/*card-productos*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -655,3 +554,68 @@ footer {
 
 .card button:hover {
   opacity: 0.7; }
+
+main {
+  overflow: hidden; }
+
+/*index parrafo*/
+p {
+  font-size: "Raleway";
+  font-size: 1rem !important;
+  font-weight: bold;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  border: 5px;
+  margin: 5px;
+  padding: 5px; }
+
+/*nosotros*/
+.prr1 {
+  margin: 0 0 24px 0; }
+
+.texto-interior {
+  font-size: 20px;
+  font-weight: bold;
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 80%; }
+
+.texto {
+  color: #080808;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Jost";
+  padding: 5%;
+  width: 90%; }
+
+footer {
+  background: #56d1ed; }
+
+@media screen and (max-width: 769px) {
+  .contAms, .contBms {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-items: center; }
+  .cardBox {
+    margin-left: 2.8%;
+    margin-top: 3%;
+    width: 46%; }
+  .card {
+    height: 285px; }
+  .cardBox:last-child {
+    margin-bottom: 3%; } }
+
+.ftp {
+  width: 20%;
+  height: 20%; }
+
+@media screen and (max-width: 480px) {
+  .cardBox {
+    width: 94.5%; }
+  .card {
+    height: 260px; } }
