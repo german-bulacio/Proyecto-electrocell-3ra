@@ -360,17 +360,17 @@ img {
   object-fit: contain; }
 
 .img-cero {
-  background-image: url("/multi/accs.png"); }
+  background-image: url("../multi/accs.png"); }
 
 /*nosotros*/
 .img-uno {
-  background-image: url("/multi/fondos/fondoMn.png"); }
+  background-image: url("../multi/fondos/fondoMn.png"); }
 
 .img-dos {
-  background-image: url("/multi/fondos/fondoMn.png"); }
+  background-image: url("../multi/fondos/fondoMn.png"); }
 
 .img-tres {
-  background-image: url("/multi/fondos/fondoMn.png"); }
+  background-image: url("../multi/fondos/fondoMn.png"); }
 
 /*productos*/
 /*nosotros parallax*/
