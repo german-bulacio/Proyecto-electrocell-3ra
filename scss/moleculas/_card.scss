@@ -64,7 +64,7 @@
     >.front,
     >.back {
         display: block;
-        color: white;
+        color: rgb(23, 23, 23);
         width: inherit;
         background-size: cover !important;
         background-position: center !important;
@@ -93,11 +93,11 @@
 
 /*card-productos/cursos*/
 .tarjeta {
-    box-shadow: 0 4px 8px 0 rgba(6, 5, 5, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(10, 6, 6, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: "jost";
+    font-family: "Mutka";
     padding: 20px;
 }
 
