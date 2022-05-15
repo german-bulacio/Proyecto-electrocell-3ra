@@ -1,16 +1,30 @@
-h1,h2,h3,h4,h5,h6{
-    margin:10px;
-    padding:10px;
-    border:10px;
-    font-weight:bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    font-weight: bold;
     align-content: center;
     justify-content: center;
     text-align: center;
-    color:$primario;
+    color: $_azulclaro;
     text-decoration: none;
     list-style: none;
-    font-family:"Raleway";
+    font-family: "Mukta";
 }
-h1{
-    font-size: 3rem;
+
+h1 {
+    font-size: 2,5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
 }

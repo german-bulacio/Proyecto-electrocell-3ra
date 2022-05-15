@@ -1,7 +1,8 @@
+/*index banner*/
 .banner{
     height: 500px;
     position: relative;
-    background: rgb(86, 209, 237);
+    background: rgb(223, 242, 246);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +11,7 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    opacity: 0.2;
+    opacity: 0.7;
 }
 
 .banner__info{
@@ -19,12 +20,12 @@
     width: 100%;
     max-width: 700px;
     text-align: center;
-    color:$secundario;
+    color:$_blancofull;
     margin: auto;
 }
 .banner__title{
     line-height: 1.5;
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 .banner__p{
@@ -32,4 +33,48 @@
     font-size: 0.9em;
     opacity: 0.9;
     margin-top: 1em;
+}
+/*cursos*/
+.bannerCS{
+    height: 400px;
+    position: relative;
+    background: rgb(192, 67, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerCS__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.bannerCS__info{
+    padding:0 2rem;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color:$_blancofull;
+    margin: auto;
+}
+.bannerCS__title{
+    line-height: 1.5;
+    font-size: 1.5rem;
+}
+
+.bannerCS__p{
+    line-height: 2;
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-top: 1rem;
+}
+.bannerCS1{
+    height: 400px;
+    position: relative;
+    background: rgb(248, 138, 55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
